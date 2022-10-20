@@ -21,8 +21,8 @@ void getinput(int &n1, int &n2) {
 
 void swap(int &n1, int &n2) {
     int temp_val;
-    n1 = temp_val;
-    n2 = n1;
+    temp_val = n1;
+    n1 = n2;
     n2 = temp_val;
 
 }
